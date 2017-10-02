@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header {
+	background-color: #369;
+	height: 75px;
+	width: 880px;
+	line-height: 75px;
+	font-size: 26px;
+	font-weight: bold;
+	color: #FFF;
+	padding-left: 20px;
+
+}
+.wrapper .menu ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.wrapper .menu ul li {
+	float: left;
+}
+.wrapper .menu ul li a:link, .wrapper .menu ul li a:visited {
+	color: #FFF;
+	font-size: 16px;
+	display: block;
+	background-color: #1A5273;
+	padding-top: 7px;
+	padding-right: 16px;
+	padding-bottom: 7px;
+	padding-left: 16px;
+	margin-top: 2px;
+	text-decoration: none;
+	margin-right: 2px;
+}
+.wrapper .menu ul li a:hover, .wrapper .menu ul li a:hover {
+	background-color: #216A96;
+}
+
+.contents {
+	min-height: 500px;
+	width: 880px;
+	background-color: #FFF;
+	padding: 10px;
+}
+.wrapper .contents ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.wrapper .contents ul li a:link, .wrapper .contents ul li a:visited {
+	display: block;
+	width: 880px;
+	padding-top: 12px;
+	padding-right: 0px;
+	padding-bottom: 12px;
+	padding-left: 0px;
+	background-color: #F8F8F8;
+	margin: 2px;
+	color: #000;
+	text-decoration: none;
+}
+.wrapper .contents ul li a:hover, .wrapper .contents ul li a:active {
+	background-color: #EFEFEF;
+}
+
+
+
+.footer {
+	background-color: #369;
+	height: 35px;
+	width: 900px;
+	line-height: 35px;
+}
+.menu {
+	background-color: #14405A;
+	height: 42px;
+	width: 890px;
+	padding-left: 10px;
+	padding-top: 2px;
+}
+
+.wrapper {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+body {
+	background-color: #999;
+	font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+}
+
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    width: 324px;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+textarea.textEntry
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+.birthday
+{
+    width: 80px;
+    border: 1px solid #ccc;
+}
+
+select.general
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+.upld
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+    width: 358px;
+}
